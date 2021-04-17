@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>churn prediction</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="/image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="../static/images/img-01.png" alt="IMG">
+			</div>
+
+			<form action="{{ url_for('get_data')}}" method="post">
+				<span class="contact1-form-title">
+					CHURN PREDICTION
+				</span>
+
+				
+				<div class="wrap-input1 validate-input">
+					<p>customer is 65 or older</p>
+					<input type="radio" id="Yes" name="scn" value="Yes">
+					  <label for="Yes">Yes</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+					  <input type="radio" id="No" name="scn" value="No">
+					  <label for="No">No</label><br>
+					</div>
+
+				<div class="wrap-input1 validate-input">
+				<p>choose gender of customer:</p>
+				<input type="radio" id="male" name="gender" value="male">
+  				<label for="male">Male</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+  				<input type="radio" id="female" name="gender" value="female">
+  				<label for="female">Female</label><br>
+				</div>
+
+				<div class="wrap-input1 validate-input">
+					<p>Does the customer have partner?</p>
+					<input type="radio" id="Yes" name="partner" value="Yes">
+					  <label for="Yes">Yes</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+					  <input type="radio" id="No" name="partner" value="No">
+					  <label for="No">No</label><br>
+					</div>
+
+				<div class="wrap-input1 validate-input">
+				<p>Does the customer have dependents?</p>
+				<input type="radio" id="Yes" name="dependents" value="Yes">
+					<label for="Yes">Yes</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" id="No" name="dependents" value="No">
+					<label for="No">No</label><br>
+				</div>
+
+				<div class="wrap-input1 validate-input">
+				<p>Does the customer have phone service?</p>
+				<input type="radio" id="Yes" name="ps" value="Yes">
+					<label for="Yes">Yes</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" id="No" name="ps" value="No">
+					<label for="No">No</label><br>
+				</div>
+
+				<div class="wrap-input1 validate-input">
+					<p>Whether the customer has multiple lines or Not</p>
+					<input type="radio" id="No phone service" name="ml" value="No phone service">
+						<label for="No phone service">No phone service</label>&nbsp&nbsp
+						<input type="radio" id="No" name="ml" value="No">
+						<label for="No">No</label>&nbsp&nbsp
+						<input type="radio" id="Yes" name="ml" value="Yes">
+						<label for="Yes">Yes</label><br>
+					</div>
+
+					<div class="wrap-input1 validate-input">
+						<p>Select Customer’s internet service provider</p>
+						<input type="radio" id="DSL" name="isp" value="DSL">
+							<label for="DSL">DSL</label>&nbsp&nbsp
+							<input type="radio" id="No" name="isp" value="No">
+							<label for="No">No</label>&nbsp&nbsp
+							<input type="radio" id="Fiber optic" name="isp" value="Fiber optic">
+							<label for="Fiber optic">Fiber optic</label><br>
+						</div>
+
+						<div class="wrap-input1 validate-input">
+							<p>Whether the customer has online security or Not</p>
+							<input type="radio" id="No internet service" name="os" value="No internet service">
+								<label for="No internet service">No internet service</label>&nbsp&nbsp
+								<input type="radio" id="No" name="os" value="No">
+								<label for="No">No</label>&nbsp&nbsp
+								<input type="radio" id="Yes" name="os" value="Yes">
+								<label for="Yes">Yes</label><br>
+							</div>
+
+							<div class="wrap-input1 validate-input">
+								<p>Whether the customer has OnlineBackup or Not</p>
+								<input type="radio" id="No internet service" name="ob" value="No internet service">
+									<label for="No internet service">No internet service</label>&nbsp&nbsp
+									<input type="radio" id="No" name="ob" value="No">
+									<label for="No">No</label>&nbsp&nbsp
+									<input type="radio" id="Yes" name="ob" value="Yes">
+									<label for="Yes">Yes</label><br>
+								</div>
+
+								<div class="wrap-input1 validate-input">
+									<p>Whether the customer has DeviceProtection or Not</p>
+									<input type="radio" id="No internet service" name="dp" value="No internet service">
+										<label for="No internet service">No internet service</label>&nbsp&nbsp
+										<input type="radio" id="No" name="dp" value="No">
+										<label for="No">No</label>&nbsp&nbsp
+										<input type="radio" id="Yes" name="dp" value="Yes">
+										<label for="Yes">Yes</label><br>
+									</div>
+
+									<div class="wrap-input1 validate-input">
+										<p>Whether the customer has TechSupport or Not</p>
+										<input type="radio" id="No internet service" name="tss" value="No internet service">
+											<label for="No internet service">No internet service</label>&nbsp&nbsp
+											<input type="radio" id="No" name="tss" value="No">
+											<label for="No">No</label>&nbsp&nbsp
+											<input type="radio" id="Yes" name="tss" value="Yes">
+											<label for="Yes">Yes</label><br>
+										</div>
+										<div class="wrap-input1 validate-input">
+											<p>Whether the customer has StreamingTV or Not</p>
+											<input type="radio" id="No internet service" name="stt" value="No internet service">
+												<label for="No internet service">No internet service</label>&nbsp&nbsp
+												<input type="radio" id="No" name="stt" value="No">
+												<label for="No">No</label>&nbsp&nbsp
+												<input type="radio" id="Yes" name="stt" value="Yes">
+												<label for="Yes">Yes</label><br>
+											</div>
+											<div class="wrap-input1 validate-input">
+												<p>Whether the customer has StreamingMovies or Not</p>
+												<input type="radio" id="No internet service" name="smm" value="No internet service">
+													<label for="No internet service">No internet service</label>&nbsp&nbsp
+													<input type="radio" id="No" name="smm" value="No">
+													<label for="No">No</label>&nbsp&nbsp
+													<input type="radio" id="Yes" name="smm" value="Yes">
+													<label for="Yes">Yes</label><br>
+												</div>
+												<div class="wrap-input1 validate-input">
+													<p>Does the customer has chosen paperless billing?</p>
+													<input type="radio" id="Yes" name="pls" value="Yes">
+														<label for="Yes">Yes</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+														<input type="radio" id="No" name="pls" value="No">
+														<label for="No">No</label><br>
+													</div>
+
+				<div class="wrap-input1 validate-input">
+					<label for="gender">enter the type of Contract:</label>
+					<select id="contract" name="contract">
+					  <option value="Month-to-month">Month-to-month</option>
+					  <option value="One year">One year</option>
+					  <option value="Two year">Two year</option>
+					</select>
+					</div>
+					
+					<div class="wrap-input1 validate-input">
+						<label for="gender">enter the type of PaymentMethod:</label>
+						<select id="PaymentMethod" name="PaymentMethod">
+							<option value="Credit card (automatic)">Credit card (automatic)</option>
+						  <option value="Electronic check">Electronic check</option>
+						  <option value="Mailed check">Mailed check</option>
+						  <option value="Bank transfer (automatic)">Bank transfer (automatic)</option>
+						</select>
+						</div>
+
+
+						<div class="wrap-input1 validate-input" data-validate = "Tenure is required">
+							<input class="input1" type="text" name="Tenure" placeholder="Tenure of customer">
+							<span class="shadow-input1"></span>
+						</div>
+
+						<div class="wrap-input1 validate-input" data-validate = "MonthlyCharges is required">
+							<input class="input1" type="text" name="MonthlyCharges" placeholder="MonthlyCharges of customer">
+							<span class="shadow-input1"></span>
+						</div>
+
+
+
+				<div class="container-contact1-form-btn">
+					<button class="contact1-form-btn">
+						<span>
+							Find Result
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+			<br><br><h3>{{ prediction_text }}<h3></h3>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
