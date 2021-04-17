@@ -1,3 +1,5 @@
+scikit-learn==0.22.1
+numpy==1.20.2
 certifi==2020.12.5
 click==7.1.2
 docutils==0.17
@@ -7,7 +9,6 @@ Jinja2==2.11.3
 joblib==1.0.1
 MarkupSafe==1.1.1
 pickle-mixin==1.0.2
-scikit-learn==0.22.1
 scipy==1.6.2
 sklearn==0.0
 statistics==1.0.3.5
