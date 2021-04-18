@@ -1,0 +1,98 @@
+2021-04-18 08:37:56,080 - _internal.py - _log - INFO - 113 -  * Restarting with stat
+2021-04-18 08:37:56,509 - _internal.py - _log - WARNING - 113 -  * Debugger is active!
+2021-04-18 08:37:56,533 - _internal.py - _log - INFO - 113 -  * Debugger PIN: 525-781-069
+2021-04-18 08:37:56,541 - _internal.py - _log - INFO - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-18 08:38:12,311 - validating.py - Home - INFO - 17 - entered home
+2021-04-18 08:38:12,351 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-18 08:38:12,424 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,426 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,427 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/animate/animate.css HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,429 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,434 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,439 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,442 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,445 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,446 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,449 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/tilt/tilt.jquery.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,450 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,454 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,455 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/css/util.css HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,464 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,465 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/images/img-01.png HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,526 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,533 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,542 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/fonts/montserrat/Montserrat-ExtraBold.ttf HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,544 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /vendor/tilt/tilt.jquery.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,546 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/fonts/montserrat/Montserrat-Bold.ttf HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,548 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,549 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[36mGET /static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 304 -
+2021-04-18 08:38:12,554 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2021-04-18 08:38:12,803 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:12] "[33mGET /images/icons/favicon.ico HTTP/1.1[0m" 404 -
+2021-04-18 08:38:35,975 - validating.py - get_data - INFO - 66 - entered get_data
+2021-04-18 08:38:38,832 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:38] "[35m[1mPOST /get_data HTTP/1.1[0m" 500 -
+2021-04-18 08:38:38,870 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:38] "[37mGET /get_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-04-18 08:38:38,885 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:38] "[37mGET /get_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-04-18 08:38:38,911 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:38] "[37mGET /get_data?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-04-18 08:38:38,973 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:38] "[37mGET /get_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-04-18 08:38:38,985 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:38:38] "[37mGET /get_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-04-18 08:39:59,432 - _internal.py - _log - INFO - 113 -  * Restarting with stat
+2021-04-18 08:39:59,870 - _internal.py - _log - WARNING - 113 -  * Debugger is active!
+2021-04-18 08:39:59,882 - _internal.py - _log - INFO - 113 -  * Debugger PIN: 525-781-069
+2021-04-18 08:39:59,889 - _internal.py - _log - INFO - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-18 08:40:03,266 - validating.py - get_data - INFO - 66 - entered get_data
+2021-04-18 08:40:04,413 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[37mPOST /get_data HTTP/1.1[0m" 200 -
+2021-04-18 08:40:04,429 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,431 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/animate/animate.css HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,432 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,433 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,434 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,436 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,438 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,440 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,442 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /vendor/tilt/tilt.jquery.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:40:04,443 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:40:04] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:12,033 - _internal.py - _log - INFO - 113 -  * Restarting with stat
+2021-04-18 08:54:12,469 - _internal.py - _log - WARNING - 113 -  * Debugger is active!
+2021-04-18 08:54:12,481 - _internal.py - _log - INFO - 113 -  * Debugger PIN: 525-781-069
+2021-04-18 08:54:12,489 - _internal.py - _log - INFO - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-04-18 08:54:25,560 - validating.py - Home - INFO - 17 - entered home
+2021-04-18 08:54:25,568 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-04-18 08:54:25,591 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,597 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/animate/animate.css HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,598 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,601 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,604 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,606 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,610 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,613 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,615 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /vendor/tilt/tilt.jquery.min.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,618 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2021-04-18 08:54:25,955 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:25] "[33mGET /images/icons/favicon.ico HTTP/1.1[0m" 404 -
+2021-04-18 08:54:28,414 - validating.py - get_data - INFO - 137 - entered get_data
+2021-04-18 08:54:28,415 - validating.py - get_data - ERROR - 143 - Error in getting --- gender --- and decoding
+Traceback (most recent call last):
+  File "C:\drive\sem8\projects\churn\validating.py", line 140, in get_data
+    gender = request.form['gender']
+  File "C:\drive\anaconda\envs\lastchurn\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-04-18 08:54:28,435 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:28] "[31m[1mPOST /get_data HTTP/1.1[0m" 400 -
+2021-04-18 08:54:28,461 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-04-18 08:54:45,461 - validating.py - get_data - INFO - 137 - entered get_data
+2021-04-18 08:54:45,462 - validating.py - get_data - ERROR - 143 - Error in getting --- gender --- and decoding
+Traceback (most recent call last):
+  File "C:\drive\sem8\projects\churn\validating.py", line 140, in get_data
+    gender = request.form['gender']
+  File "C:\drive\anaconda\envs\lastchurn\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-04-18 08:54:45,462 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:54:45] "[31m[1mPOST /get_data HTTP/1.1[0m" 400 -
+2021-04-18 08:55:03,005 - validating.py - get_data - INFO - 137 - entered get_data
+2021-04-18 08:55:03,005 - validating.py - get_data - ERROR - 169 - Error in getting --- Partner --- and decoding
+Traceback (most recent call last):
+  File "C:\drive\sem8\projects\churn\validating.py", line 166, in get_data
+    Partner = request.form['partner']
+  File "C:\drive\anaconda\envs\lastchurn\lib\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-04-18 08:55:03,006 - _internal.py - _log - INFO - 113 - 127.0.0.1 - - [18/Apr/2021 08:55:03] "[31m[1mPOST /get_data HTTP/1.1[0m" 400 -

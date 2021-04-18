@@ -1,1 +1,1 @@
-web: gunicorn validating:app
+web: gunicorn wsgi:app
