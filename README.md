@@ -1,7 +1,9 @@
-# churn_python
+# Churn predictor
+Churn predictor is a end to end Flask application that predicts whether `a customer will move out of company or will stay`.
+
 URL
 ----
-https://churn--predic.herokuapp.com/
+Run this App [HERE] (https://churn--predic.herokuapp.com/)
 
 Created By
 ----------
@@ -30,7 +32,7 @@ python wsgi.py
 ```bash
 '
 .
-├── models
+├── models                      #model created for churn prediction application
     ├── decision_tree.pkl
     ├── gaussian.pkl
     ├── kernal_svm.pkl
@@ -38,27 +40,26 @@ python wsgi.py
     ├── logistic.pkl
     ├── random_forest.pkl
     └── svm.pkl
-├── static
+├── static                      #contains required fonts images css 
     ├── fonts
     ├── images
-├── templates
+├── templates                   #contains required HTML files
     ├── index.html
-├── BI.pbix
-├── Procfile
+├── BI.pbix                     #Power BI dash board for Churn 
+├── Procfile                    #file for Heroku deployment
 ├── README.md
-├── churn.log
-├── customer_churn_data.csv
-├── data.py
-├── last_churn.ipynb
-├── log.conf
+├── churn.log                   #all logs will be logged here
+├── customer_churn_data.csv     #dataset
+├── data.py                     #data from UI are decoded for model using this
+├── last_churn.ipynb            #File which generated all pkl files
+├── log.conf                    #config file for structure of logs
 ├── requirements.txt
-├── test_list.py
-├── validating.py
-└── wsgi.py
+├── test_list.py                #models got tested here
+├── validating.py               #core script with API that finds the result
+└── wsgi.py                     #web server gateway Interface
 ```
 
-## About Resnet50
-Resnet50 is a `pretrained model` by Imagenet which is `50 layers deep` and already got trained with 1000 categories. Here I used `transfer learning` process to retrain resnet50 for pneumonia data obtained from kaggle. 
+## About models
 
 ## Important Tools used
 * python 3.7
