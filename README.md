@@ -1,9 +1,8 @@
 # Churn predictor
 Churn predictor is a end to end Flask application that predicts whether `a customer will move out of company or will stay`.
 
-URL
-----
-Run this App [HERE] (https://churn--predic.herokuapp.com/)
+## URL
+Run this App [HERE](https://churn--predic.herokuapp.com/)
 
 Created By
 ----------
