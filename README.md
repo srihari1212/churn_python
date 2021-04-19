@@ -58,8 +58,6 @@ python wsgi.py
 └── wsgi.py                     #web server gateway Interface
 ```
 
-## About models
-
 ## Important Tools used
 * python 3.7
 * anaconda-jupyternotebook
@@ -69,23 +67,46 @@ python wsgi.py
 * css
 * js
 
-## Training time
-I trained the model through `50 epoch (cycles)`
-For 50 cycles it took aroung `6 hours`
+#Steps for training models
+* cleaning the data - `totalcharges` from object to float
+* Check for `Null` values and remove them using `mean imputation`
+* Encoding all the labels in data using `sklearn.preprocessing-LabelEncoder`
+* Visualise `correlation` between each variable and target(churn)
+* Check `Multicollinearity` using Variable Inflation Factors (VIF)
+* monthly charges and totalcharges have high multicollinearity with others and both are highly correlated(from correlation plot), so `drop one`
+* split into `train and test` data - `0.8:0.2`
+* `normalize` using StandardScaler
+* should not use accuracy as metric since this is `imbalance data`, since this is churn,`false negatives are more costly than false positives`, `Recall` will be better
+* Tune hyperparameter (k in knn,no of trees for RF)
+* Fitting models
+* Ensembling the results using mode
+
+## Models used
+* Logistic regression
+* SVM (Linear)
+* K-Nearest Neighbours
+* Kernel SVM
+* Naive Byes
+* Decision Tree
+* Random Forest
 
 ## Accuracy range
-The overall accuracy range was between `88 to 91`
+The overall accuracy range was between `78 to 82`
+Recall range `0.52 to 0.71` >0.5 , so not bad 
 
 ## Input 
-After running the application just upload a `x-ray image`
+Fill the Information about customer required by model in web app's UI
 
 ## Output
 It will say whether
-    `The person is normal`
+    `this customer will stay - not churn`
                 or
-    `The person has pnuemonia`
-    
+    `this customer will leave - churn`
+
+Logging is included
+-------------------
+This API is `completely logged` in churn.log file. So Application can be monitered any time
+
 ## Deployment
-Now this is running `locally in my PC`
-I tried with `Heroku` platform
-But I couldnt deploy , since I used `Git LFS` to upload my 98.3mb .h5 model file, heroku couldnt pull LFS files to its server since I only have a `FREE TIER` account  
+This Application is Deployed in Heroku Platform. 
+To Run this App [CLICK HERE](https://churn--predic.herokuapp.com/)
