@@ -67,7 +67,7 @@ python wsgi.py
 * css
 * js
 
-#Steps for training models
+## Steps for training models
 * cleaning the data - `totalcharges` from object to float
 * Check for `Null` values and remove them using `mean imputation`
 * Encoding all the labels in data using `sklearn.preprocessing-LabelEncoder`
